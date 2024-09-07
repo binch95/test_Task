@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/24_08_spring
+    username: root
+    password: 
+mybatis:
+  type-aliases-package: com.example.demo.vo
